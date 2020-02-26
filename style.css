@@ -1,0 +1,46 @@
+:root {
+  --grid-size: 800px;
+  --grid-lines-color: #b7c4bb; 
+}
+
+body {
+  background-color: black;
+  text-align: center;
+}
+
+header {
+  padding: 10px;
+}
+
+section {
+  padding-bottom: 20px;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+#container {
+  display: grid;
+  border: 1px solid var(--grid-lines-color);
+  width: var(--grid-size);
+  height: var(--grid-size);
+  margin: 0 auto;
+}
+
+.cell {
+  background-color: #ede6e8;
+  border: 1px solid var(--grid-lines-color);
+}
+
+.cell:hover {
+  background-color: rgb(0, 255, 149);
+}
+
+.buttons {
+  cursor: pointer;
+}
